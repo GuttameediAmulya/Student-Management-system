@@ -1,44 +1,59 @@
-# Student-Management-system
-The Student Management System is a role-based desktop application developed to efficiently manage student-related data within an educational institution. The system enables administrators, teachers, and students to access relevant functionalities via secure login. It minimizes manual recordkeeping, enhances data accuracy, and streamlines academic administration.
+**Student Management System**
 
-Objectives:
+Overview
 
-To automate the student data management process
+This project is a desktop-based Student Management System developed using Python. It provides a role-based interface for Admin, Teacher, and Student to manage and access student data efficiently.
 
-To provide secure login and role-based access to users
+The application integrates a graphical user interface (GUI) with a backend SQLite database to perform real-time data operations.
 
-To allow administrators to manage both student and teacher records
-
-To enable teachers to view, search, and update student details
-
-To allow students to view their own profiles and academic results
-
-
-User Roles and Permissions:
-
--Administrator
-
-Login via credentials (username: admin, password :admin@admin)
-
-Add/Edit/Delete student details
-
-Add/Delete teacher accounts
-
-View all records
-
--Teacher
-
-Login via credentials provided by Admin
-
-Search for students
-
-Update student details (grades etc.)
-
--Student
-
-view their profile and grades
+**Key Features**
+**Admin**
+Add new student records
+Update existing student details
+Delete student records
+View all student data
+Manage staff (add/remove teachers)
+**Teacher**
+View all student records
+Search student by ID or name
+Update student details
+**Student**
+Search and view personal details using Student ID
+**Authentication**
+Login system for Admin and Teacher
+Admin credentials (default): admin / admin@admin
+Teacher credentials stored in database
 
 
+**Tech Stack**
+Programming Language: Python
+GUI Framework: Tkinter, CustomTkinter
+Database: SQLite (student.db)
+Libraries: sqlite3, PIL
 
-Technologies Used: Python, SQLite3, Tkinter
 
+**How to Run**
+Clone the repository
+git clone https://github.com/GuttameediAmulya/Student-Management-system.git
+Navigate to the folder
+cd Student-Management-system
+Run the application
+python home.py
+
+**Key Highlights**
+Role-based access (Admin, Teacher, Student)
+GUI-based desktop application
+SQLite database integration
+Full CRUD functionality
+Modular code structure
+
+**Challenges Faced**
+Integrating GUI with database operations
+Managing multiple user roles
+Handling real-time updates in interface
+
+
+
+**Note**
+
+This project demonstrates practical implementation of GUI-based application development with database integration and role-based access control.
