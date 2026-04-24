@@ -7,18 +7,22 @@ This project is a desktop-based Student Management System developed using Python
 The application integrates a graphical user interface (GUI) with a backend SQLite database to perform real-time data operations.
 
 **Key Features**
+
 **Admin**
 Add new student records
 Update existing student details
 Delete student records
 View all student data
 Manage staff (add/remove teachers)
+
 **Teacher**
 View all student records
 Search student by ID or name
 Update student details
+
 **Student**
 Search and view personal details using Student ID
+
 **Authentication**
 Login system for Admin and Teacher
 Admin credentials (default): admin / admin@admin
